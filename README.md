@@ -1,17 +1,3 @@
-# {{basename}}
+# khaos-node-template
 
-{{description}}
-
-## Install
-
-```bash
-$ npm install {{basename}}
-```
-
-## Author
-
-Evan Lucas
-
-## License
-
-MIT (See `LICENSE` for more info)
+A simple khaos template for node
