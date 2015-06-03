@@ -1,5 +1,7 @@
 # {{basename}}
 
+[![Build Status](https://travis-ci.org/{{repository}}.svg)](https://travis-ci.org/{{repository}})
+
 {{description}}
 
 ## Install
