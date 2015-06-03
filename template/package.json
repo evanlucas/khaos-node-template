@@ -5,7 +5,10 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {},
-  "license": "MIT",
+  "license": "MIT",{{#bin}}
+  "bin": {
+    "{{basename}}": "./bin/cmd.js"
+  },{{/bin}}
   "author": "Evan Lucas <evanlucas@me.com>",
   "repository": {
     "type": "git",
