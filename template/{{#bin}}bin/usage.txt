@@ -1,0 +1,7 @@
+{{basename}} - {{description}}
+
+  usage: {{basename}} [options]
+
+  options:
+    -h, --help                    show help and usage
+    -v, --version                 show version
