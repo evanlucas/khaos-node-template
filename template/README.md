@@ -11,6 +11,12 @@
 $ npm install {{basename}}
 ```
 
+{{#tap}}
+```bash
+$ npm test
+```
+{{/tap}}
+
 ## Author
 
 Evan Lucas
