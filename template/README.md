@@ -14,6 +14,8 @@ $ npm install {{#bin}}[-g]{{/bin}}{{basename}}
 ```
 
 {{#tap}}
+## Test
+
 ```bash
 $ npm test
 ```

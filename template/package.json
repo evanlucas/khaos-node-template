@@ -2,7 +2,10 @@
   "name": "{{basename}}",
   "version": "1.0.0",
   "description": "{{description}}",
-  "main": "index.js",
+  "main": "index.js",{{#tap}}
+  "scripts": {
+    "test": "tap test/*.js --cov"
+  },{{/tap}}
   "dependencies": {},
   "devDependencies": {
     {{#tap}}
