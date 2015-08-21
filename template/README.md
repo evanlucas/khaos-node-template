@@ -10,7 +10,7 @@
 ## Install
 
 ```bash
-$ npm install {{basename}}
+$ npm install {{#bin}}[-g]{{/bin}}{{basename}}
 ```
 
 {{#tap}}
