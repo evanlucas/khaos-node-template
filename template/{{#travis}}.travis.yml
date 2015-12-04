@@ -1,4 +1,6 @@
-language: node_js
+language: node_js{{#native}}
+env:
+  - CXX="g++-4.8"{{/native}}
 node_js:{{#legacy_support}}
   - "0.10"
   - "0.12"{{/legacy_support}}
@@ -7,4 +9,12 @@ node_js:{{#legacy_support}}
   - "iojs"
   - "iojs-v1"
   - "iojs-v2"
-sudo: false
+sudo: false{{#native}}
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - g++-4.8
+      - gcc-4.8
+{{/native}}
