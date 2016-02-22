@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     {{#tap}}
-    "tap": "~5.4.4"
+    "tap": "~5.6.0"
     {{/tap}}
   },
   "license": "MIT",{{#bin}}
